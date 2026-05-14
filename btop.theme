@@ -1,86 +1,86 @@
-# Bashtop Kanagawa-lotus (https://github.com/rebelot/kanagawa.nvim) theme
-# By: philikarus (lotus adaptation)
+# Bashtop Kanagawa-dragon (https://github.com/rebelot/kanagawa.nvim) theme
+# By: philikarus (dragon adaptation)
 
 # Main bg
-theme[main_bg]="#f1e9d2"
+theme[main_bg]="#181616"
 
 # Main text color
-theme[main_fg]="#545464"
+theme[main_fg]="#c5c9c5"
 
 # Title color for boxes
-theme[title]="#43436c"
+theme[title]="#c8c093"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#c84053"
+theme[hi_fg]="#c4746e"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#c9cbd1"
+theme[selected_bg]="#393836"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#836f4a"
+theme[selected_fg]="#c4b28a"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#8a8980"
+theme[inactive_fg]="#737c73"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#5e857a"
+theme[proc_misc]="#7aa89f"
 
 # Cpu box outline color
-theme[cpu_box]="#8a8980"
+theme[cpu_box]="#625e5a"
 
 # Memory/disks box outline color
-theme[mem_box]="#8a8980"
+theme[mem_box]="#625e5a"
 
 # Net up/down box outline color
-theme[net_box]="#8a8980"
+theme[net_box]="#625e5a"
 
 # Processes box outline color
-theme[proc_box]="#8a8980"
+theme[proc_box]="#625e5a"
 
 # Box divider line and small boxes line color
-theme[div_line]="#8a8980"
+theme[div_line]="#625e5a"
 
 # Temperature graph colors
-theme[temp_start]="#6f894e"
-theme[temp_mid]="#836f4a"
-theme[temp_end]="#c84053"
+theme[temp_start]="#87a987"
+theme[temp_mid]="#c4b28a"
+theme[temp_end]="#c4746e"
 
 # CPU graph colors
-theme[cpu_start]="#6f894e"
-theme[cpu_mid]="#836f4a"
-theme[cpu_end]="#c84053"
+theme[cpu_start]="#87a987"
+theme[cpu_mid]="#c4b28a"
+theme[cpu_end]="#c4746e"
 
 # Mem/Disk free meter
-theme[free_start]="#c84053"
-theme[free_mid]="#d7474b"
-theme[free_end]="#b35b79"
+theme[free_start]="#c4746e"
+theme[free_mid]="#e46876"
+theme[free_end]="#a292a3"
 
 # Mem/Disk cached meter
-theme[cached_start]="#77713f"
-theme[cached_mid]="#836f4a"
-theme[cached_end]="#cc6d00"
+theme[cached_start]="#c4b28a"
+theme[cached_mid]="#e6c384"
+theme[cached_end]="#b6927b"
 
 # Mem/Disk available meter
-theme[available_start]="#624c83"
-theme[available_mid]="#766b90"
-theme[available_end]="#4d699b"
+theme[available_start]="#938aa9"
+theme[available_mid]="#8992a7"
+theme[available_end]="#7fb4ca"
 
 # Mem/Disk used meter
-theme[used_start]="#597b75"
-theme[used_mid]="#4d699b"
-theme[used_end]="#5e857a"
+theme[used_start]="#8ea4a2"
+theme[used_mid]="#658594"
+theme[used_end]="#7aa89f"
 
 # Download graph colors
-theme[download_start]="#4d699b"
-theme[download_mid]="#624c83"
-theme[download_end]="#b35b79"
+theme[download_start]="#7fb4ca"
+theme[download_mid]="#938aa9"
+theme[download_end]="#a292a3"
 
 # Upload graph colors
-theme[upload_start]="#836f4a"
-theme[upload_mid]="#77713f"
-theme[upload_end]="#c84053"
+theme[upload_start]="#c4b28a"
+theme[upload_mid]="#e6c384"
+theme[upload_end]="#c4746e"
 
 # Process box color gradient for threads, mem and cpu usage
-theme[process_start]="#6f894e"
-theme[process_mid]="#836f4a"
-theme[process_end]="#c84053"
+theme[process_start]="#87a987"
+theme[process_mid]="#c4b28a"
+theme[process_end]="#c4746e"

@@ -4,28 +4,28 @@ import Quickshell
 import Quickshell.Wayland
 import Quickshell.Io
 
-// Kanagawa Lotus navbar. Paper, ink, indigo, vermillion seal.
+// Kanagawa Dragon navbar. Sumi, bone, slate, autumn seal.
 // Stillness over motion. One thin line, one accent.
 // Inspired by the OmarchyQuickApps "zen" shell — kanji numerals share
 // the typographic register of the 静 (stillness) character.
 ShellRoot {
     id: root
 
-    // ---------- Kanagawa Lotus palette ----------
-    readonly property color paper:   "#f1e9d2"  // cream
-    readonly property color ink:     "#545464"  // lotusInk1
-    readonly property color inkDeep: "#43436c"  // lotusInk2
-    readonly property color sumi:    "#8a8980"  // lotusGray
-    readonly property color indigo:  "#4d699b"  // Great Wave blue
-    readonly property color seal:    "#c84053"  // vermillion seal
+    // ---------- Kanagawa Dragon palette ----------
+    readonly property color paper:   "#181616"  // dragonBlack3
+    readonly property color ink:     "#c5c9c5"  // dragonWhite
+    readonly property color inkDeep: "#c8c093"  // oldWhite
+    readonly property color sumi:    "#a6a69c"  // dragonGray
+    readonly property color indigo:  "#658594"  // dragonBlue2
+    readonly property color seal:    "#c4746e"  // autumnRed
 
-    // Bar surface: cream paper with alpha, hairline in faint ink.
-    readonly property color bg:     Qt.rgba(0.945, 0.914, 0.824, 0.94)
+    // Bar surface: smoked sumi with alpha, hairline in faint bone.
+    readonly property color bg:     Qt.rgba(0.094, 0.086, 0.086, 0.94)
     readonly property color fg:     ink
     readonly property color muted:  sumi
     readonly property color accent: seal
     readonly property color warn:   seal
-    readonly property color sep:    Qt.rgba(0.33, 0.33, 0.39, 0.18)
+    readonly property color sep:    Qt.rgba(0.773, 0.788, 0.773, 0.18)
 
     readonly property string serif: "serif"
     readonly property string mono:  "JetBrainsMono Nerd Font"
@@ -234,7 +234,7 @@ ShellRoot {
                 anchors.rightMargin: 8
                 anchors.verticalCenter: parent.verticalCenter
                 text: "静"
-                color: Qt.rgba(0.33, 0.33, 0.39, 0.07)
+                color: Qt.rgba(0.773, 0.788, 0.773, 0.07)
                 font.family: root.serif
                 font.pixelSize: root.barHeight + 6
                 font.weight: Font.Light
@@ -385,7 +385,7 @@ ShellRoot {
             anchors.topMargin: 3
             anchors.bottomMargin: 3
             radius: 0
-            color: mouse.containsMouse ? Qt.rgba(0.33, 0.33, 0.39, 0.06) : "transparent"
+            color: mouse.containsMouse ? Qt.rgba(0.773, 0.788, 0.773, 0.08) : "transparent"
             Behavior on color { ColorAnimation { duration: 180 } }
         }
 

@@ -4,8 +4,8 @@ import Quickshell
 import Quickshell.Wayland
 import Quickshell.Io
 
-// Kanagawa Lotus quick app selector.
-// Paper, ink, indigo, vermillion seal. Stillness over motion.
+// Kanagawa Dragon quick app selector.
+// Sumi, bone, slate, autumn seal. Stillness over motion.
 ShellRoot {
     id: root
 
@@ -13,14 +13,14 @@ ShellRoot {
     property int selectedIndex: 0
     readonly property var selectedApp: apps.length ? apps[selectedIndex] : null
 
-    // Kanagawa Lotus palette
-    readonly property color paper:   "#f1e9d2"  // cream background
-    readonly property color ink:     "#545464"  // lotusInk1
-    readonly property color inkDeep: "#43436c"  // lotusInk2
-    readonly property color sumi:    "#8a8980"  // lotusGray
-    readonly property color indigo:  "#4d699b"  // lotusBlue4
-    readonly property color seal:    "#c84053"  // lotusRed
-    readonly property color wash:    "#e6dcc0"  // a touch darker than paper, for circle fills
+    // Kanagawa Dragon palette
+    readonly property color paper:   "#181616"  // dragonBlack3
+    readonly property color ink:     "#c5c9c5"  // dragonWhite
+    readonly property color inkDeep: "#c8c093"  // oldWhite
+    readonly property color sumi:    "#a6a69c"  // dragonGray
+    readonly property color indigo:  "#658594"  // dragonBlue2
+    readonly property color seal:    "#c4746e"  // autumnRed
+    readonly property color wash:    "#282727"  // a touch lighter than paper, for circle fills
 
     readonly property var kanjiNum: ["〇","一","二","三","四","五","六","七","八","九","十"]
     function indexKanji(n) { return n >= 0 && n <= 10 ? kanjiNum[n] : String(n); }
@@ -47,7 +47,7 @@ ShellRoot {
     PanelWindow {
         id: panel
         anchors { top: true; bottom: true; left: true; right: true }
-        color: Qt.rgba(0.945, 0.914, 0.824, 0.97)
+        color: Qt.rgba(0.094, 0.086, 0.086, 0.97)
         WlrLayershell.layer: WlrLayer.Overlay
         WlrLayershell.keyboardFocus: WlrKeyboardFocus.Exclusive
         WlrLayershell.namespace: "omarchy-quickapps"
@@ -95,7 +95,7 @@ ShellRoot {
             anchors.right: parent.right; anchors.rightMargin: 60
             anchors.verticalCenter: parent.verticalCenter
             text: "静"
-            color: Qt.rgba(0.33, 0.33, 0.39, 0.10)
+            color: Qt.rgba(0.773, 0.788, 0.773, 0.06)
             font.family: "serif"; font.pixelSize: 220; font.weight: Font.Light
         }
 
@@ -130,7 +130,7 @@ ShellRoot {
                 anchors.centerIn: parent
                 width: 460; height: 460; radius: 230
                 color: "transparent"
-                border.color: Qt.rgba(0.302, 0.412, 0.608, 0.18)
+                border.color: Qt.rgba(0.396, 0.522, 0.580, 0.28)
                 border.width: 1
             }
 
@@ -187,7 +187,7 @@ ShellRoot {
                         anchors.verticalCenter: disk.verticalCenter
                         anchors.verticalCenterOffset: 2
                         width: 58; height: 58; radius: 29
-                        color: Qt.rgba(0.302, 0.412, 0.608, 0.07)  // indigo, very faint
+                        color: Qt.rgba(0.773, 0.788, 0.773, 0.05)  // bone glow, very faint
                         visible: !parent.focused
                     }
 
@@ -196,7 +196,7 @@ ShellRoot {
                         anchors.horizontalCenter: parent.horizontalCenter
                         width: 56; height: 56; radius: 28
                         color: parent.focused ? root.ink : root.wash
-                        border.color: parent.focused ? root.ink : Qt.rgba(0.302, 0.412, 0.608, 0.35)
+                        border.color: parent.focused ? root.ink : Qt.rgba(0.396, 0.522, 0.580, 0.45)
                         border.width: 1
                         Behavior on color { ColorAnimation { duration: 350 } }
                         Behavior on border.color { ColorAnimation { duration: 350 } }

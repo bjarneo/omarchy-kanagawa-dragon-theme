@@ -4,9 +4,9 @@ return {
 		opts = {
 			colors = {
 				theme = {
-					lotus = {
+					dragon = {
 						ui = {
-							bg = "#f1e9d2",
+							bg = "#181616",
 						},
 					},
 				},
@@ -16,7 +16,7 @@ return {
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "kanagawa-lotus",
+			colorscheme = "kanagawa-dragon",
 		},
 	},
 }

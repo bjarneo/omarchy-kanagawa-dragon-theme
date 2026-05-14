@@ -1,4 +1,4 @@
-local active_border_color = "rgb(545464)"
+local active_border_color = "rgb(c5c9c5)"
 
 hl.config({
   general = {
@@ -14,5 +14,5 @@ hl.config({
   },
 })
 
--- Kanagawa Lotus backdrop is light; keep terminals near-opaque so text stays legible.
-hl.window_rule({ match = { tag = "terminal" }, opacity = "0.98 0.95" })
+-- Kanagawa Dragon backdrop is dark; terminals can breathe a little.
+hl.window_rule({ match = { tag = "terminal" }, opacity = "0.92 0.85" })

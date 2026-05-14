@@ -1,16 +1,16 @@
-# Kanagawa Lotus
+# Kanagawa Dragon
 
-A light-mode theme for [Omarchy](https://github.com/basecamp/omarchy), based on the [Kanagawa Lotus](https://github.com/rebelot/kanagawa.nvim) palette (slightly modified).
+A dark-mode theme for [Omarchy](https://github.com/basecamp/omarchy), based on the [Kanagawa Dragon](https://github.com/rebelot/kanagawa.nvim) palette (slightly modified).
+
+Light-mode counterpart: [omarchy-kanagawa-lotus-theme](https://github.com/bjarneo/omarchy-kanagawa-lotus-theme).
 
 ![Preview](preview.png)
 ![Preview](preview2.png)
 
-https://github.com/user-attachments/assets/3d742962-1723-46b0-b2dd-9396265f5609
-
 ## Installation
 
 ```sh
-omarchy-theme-install https://github.com/bjarneo/omarchy-kanagawa-lotus-theme
+omarchy-theme-install https://github.com/bjarneo/omarchy-kanagawa-dragon-theme
 ```
 
 ## Quickshell
@@ -27,7 +27,7 @@ Requirements: `quickshell`, `hyprctl`, `pamixer`, `bluetoothctl`, `nmcli`, a Ner
 
 ### Navbar
 
-A thin Kanagawa Lotus panel: kanji workspace numerals, vermillion seal accents, and a centered serif clock.
+A thin Kanagawa Dragon panel: kanji workspace numerals, autumn-red seal accents, and a centered serif clock on smoked sumi.
 
 ```sh
 omarchy toggle waybar
@@ -40,7 +40,7 @@ Left-click triggers the primary action on each module; right-click on the Omarch
 
 ### Quick apps selector
 
-A radial app launcher. Apps sit on a faint indigo ring on cream paper; the selected one is filled with ink and marked with a vermillion seal dot. Icons are tinted to follow the palette via a `MultiEffect` colorize pass, so a multi-color icon set still reads as one cohesive design.
+A radial app launcher. Apps sit on a faint slate ring on sumi paper; the selected one is filled with bone-white ink and marked with an autumn seal dot. Icons are tinted to follow the palette via a `MultiEffect` colorize pass, so a multi-color icon set still reads as one cohesive design.
 
 Adapted from the `zen` shell in [omarchy-quickapps](https://github.com/bjarneo/omarchy-quickapps), with adjustments specific to this theme (icon colorization, soft circle backgrounds).
 
