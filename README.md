@@ -2,6 +2,9 @@
 
 A light-mode theme for [Omarchy](https://github.com/basecamp/omarchy), based on the [Kanagawa Lotus](https://github.com/rebelot/kanagawa.nvim) palette (slightly modified).
 
+![Preview](preview.png)
+![Preview](preview2.png)
+
 https://github.com/user-attachments/assets/3d742962-1723-46b0-b2dd-9396265f5609
 
 ## Installation
