@@ -262,7 +262,7 @@ ShellRoot {
                     anchors.verticalCenter: parent.verticalCenter
                     text: root.hh + ":" + root.mm
                     color: root.ink
-                    font.family: root.serif
+                    font.family: root.mono
                     font.pixelSize: 12
                     font.letterSpacing: 2
                     font.weight: Font.Light
@@ -277,7 +277,7 @@ ShellRoot {
                     anchors.verticalCenter: parent.verticalCenter
                     text: root.dd + " " + root.mon
                     color: root.sumi
-                    font.family: root.serif
+                    font.family: root.mono
                     font.pixelSize: 10
                     font.letterSpacing: 2
                     font.italic: true
