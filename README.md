@@ -7,6 +7,8 @@ Light-mode counterpart: [omarchy-kanagawa-lotus-theme](https://github.com/bjarne
 ![Preview](preview.png)
 ![Preview](preview2.png)
 
+https://github.com/user-attachments/assets/5c1d4f2b-e2e7-40fe-b25a-00e0e66a17a3
+
 ## Installation
 
 ```sh
