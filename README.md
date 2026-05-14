@@ -5,9 +5,11 @@ A light-mode theme for [Omarchy](https://github.com/basecamp/omarchy), based on 
 ![Preview](preview.png)
 ![Preview](preview2.png)
 
-<video src="kanagawa-lotus.mp4" controls poster="preview.png" width="100%"></video>
 
-[Watch the demo video](kanagawa-lotus.mp4) if the player above does not render.
+
+https://github.com/user-attachments/assets/3d742962-1723-46b0-b2dd-9396265f5609
+
+
 
 ## Installation
 
